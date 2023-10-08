@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doument</title>
+</head>
+
+<body>
+    <center>
+         
+        
+            <div>
+                <h1> LOGIN PAGE </h1>
+                <label for="email"><b> USER EMAIL :</b></label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" name="email" title="use @"><br><br>
+
+                <label for="password"><b> PASSWORD : :</b></label><br>
+                <input type="password" id="myInput" name="password" placeholder="Enter Your password" pattern="(?=,*\d)(?=,*[a-z])(?=,*[A-Z]),{7,}" title="Use atleast 1 uppercse,Lowercase,special character"size="7"><br><br>
+            
+                <input type="button" name="log" id="log" value="LOGIN"><br><br>
+                <input type="checkbox" onclick="myFunction()"> Show password
+               
+                <script>
+                    function myFunction(){
+                        var x =document.getElementById("myInput");
+                        if (x.type === "password"){
+                            x.type = "text";
+                        }else{
+                            X.type = "password";
+                        }
+                    }
+                </script>
+                <br><br>
+                <a href="default.asp" target="_blank"> FORGOT PASSWORD </a><br>
+            </b>><em>
+            </div>
+
+                        
+                    
+             
+
+               
+               
+
+              
+            
+           
+                
+            
+    </center>
+    <h2></h2>
+</body>
+
+</html>
